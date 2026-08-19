@@ -46,7 +46,7 @@ class Category:
             amount = f"{record['amount']:.2f}"
             body += (f'\n{description:<23}{amount:>7}')
 
-        final_line = f'\nTotal: {total}'
+        final_line = f'\nTotal: {total}' # type: ignore
         return header + body + final_line
 
 def create_spend_chart(categories):
