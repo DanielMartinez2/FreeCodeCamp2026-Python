@@ -19,7 +19,7 @@ The activities in this repository cover topics such as:
 - algorithms and problem solving;
 - data structures;
 - error handling;
-- file and data processing.
+- data validation and processing.
 
 The topics evolve as I progress through the curriculum.
 
@@ -41,12 +41,12 @@ Individual files can generally be executed directly from the repository root:
 
 ```bash
 python path/to/file.py
-````
+```
 
 For example:
 
 ```bash
-python labs/example.py
+python lab/n-queens.py
 ```
 
 Some activities may require specific input or follow instructions defined by the original exercise.
@@ -74,6 +74,3 @@ Daily algorithm and problem-solving practice in both JavaScript and Python is ma
 ## Author
 
 **Daniel Martínez Alencar Freitas**
-
-```
-```
